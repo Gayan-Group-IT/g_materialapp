@@ -1,0 +1,49 @@
+{
+  "message": "success",
+  "iconFontFamily": "MaterialIcons",
+  "initialRoute": "/intro",
+  "menuItems": [
+    {
+      "type": "menu_item",
+      "title": "Intro",
+      "route": "/intro",
+      "iconCodePoint": 58873
+    },
+    {
+      "type": "menu_item",
+      "title": "Home",
+      "route": "/home",
+      "iconCodePoint": 58136
+    },
+    {
+      "type": "menu_item",
+      "title": "Dashboard",
+      "route": "/dashboard",
+      "iconCodePoint": 57777
+    },
+
+    {
+      "type": "menu_item",
+      "title": "Item",
+      "iconCodePoint": 984386,
+      "items": [
+        {
+          "type": "menu_item",
+          "title": "Sub 1",
+          "route": "/item/sub1"
+        },
+        {
+          "type": "menu_item",
+          "title": "Sub 2",
+          "route": "/item/sub2"
+        },
+        {
+          "type": "menu_item",
+          "title": "Sub 3",
+          "route": "/item/sub3"
+        }
+      ]
+    }
+
+  ]
+}
